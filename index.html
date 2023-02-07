@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenWeatherMap API</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <h1>Weekly Weather</h1>
-    <form id="form">
-      <label for="city">City:</label>
-      <input type="text" id="city" name="city">
-      <button type="submit">Submit</button>
-    </form>
-    <div id="weather"></div>
-
-    <script src="app.js"></script>
-</body>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <!-- add background image -->
+    <header>WEATHER FORECAST</header>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <input type="text" id="cityName" class="form-control" placeholder="Enter city name">
+            <div class="input-group-append">
+              <button id="getWeather" class="btn btn-primary">Get Weather</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center" id="weatherForecast">
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+  <footer class="foot">Developed by Yeswanth Narayana</footer>
 </html>
