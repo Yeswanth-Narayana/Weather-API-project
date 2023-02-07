@@ -1,16 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/3265131.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+header{
+    background-color: #5d45e78b;
+    color: #fff;
     text-align: center;
-  }
-  
-  #weather {
-    margin-top: 20px;
-  }
-  
-  .day {
-    display: inline-block;
-    width: 200px;
-    text-align: left;
-    margin-right: 20px;
-  }
+    font-size: larger;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.card-title{
+    text-align: center;
+
+}
+.card-text{
+    text-align: center;
+    line-height: 20px;
+}
+.card {
+    background-color: #e14d4de2;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-body {
+    background-color: #de7ad476;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: #e14d4d;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+footer{
+    background-color: #000000b2;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
   
